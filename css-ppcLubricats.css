@@ -1,0 +1,98 @@
+* { 
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+/* HEADER SECTION */
+.header {
+  background-color: white;
+}
+  .header img {
+    margin-left: 20px;
+  }
+
+  .header p {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .header ul {
+    background-color: lightgray;
+    height: 50px;
+    border-top: solid 2px darkgray;
+    
+  }
+
+  .header ul li {
+    display: inline-block;
+    border-left: solid 2px darkgray;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+  }
+
+  .header ul li a {
+    color: darkgray;
+  }
+
+  .header ul li:last-child {
+    border-right: solid 2px darkgray;
+  }
+
+/* MID SECTION */
+.section-mid {
+  background-color: black;
+  color: white;
+}
+  
+  .section-mid img {
+    margin: 10px 15px 8px 30px;
+    display: inline-block;
+  }
+
+  .section-mid ul {
+    background-color: gray;
+    width: 650px;
+    height: 266px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 11px 0px 5px 0px
+  }
+
+  .section-mid ul lh {
+    display: block;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+    padding: 8px;
+  }
+
+  .section-mid ul li {
+    padding: 15px 10px;
+  }
+
+  .mid-ul-li {
+    font-size: 13px;
+  }
+
+  .section-mid p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    color: olive;
+    margin-top: 12px;
+
+  }
+
+/* BOTTOM SECTION */
+.section-bottom {
+  background-color: lightgreen;
+}
